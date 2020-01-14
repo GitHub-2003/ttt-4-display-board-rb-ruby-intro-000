@@ -7,4 +7,5 @@ def display_board(board = [" "," "," "," "," "," "," "," "," "])
 end
 
 display_board
+print
 display_board(["X", "X", "X", " ", " ", " ", " ", " ", " "])
