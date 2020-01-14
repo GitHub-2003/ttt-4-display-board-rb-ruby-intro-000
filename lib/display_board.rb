@@ -10,3 +10,5 @@ end
 display_board
 display_board(["X", "X", "X", " ", " ", " ", " ", " ", " "])
 display_board(["O", "X", " ", " ", "X", " ", "X", "O", " "])
+display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
+display_board(["O", "X", " ", " ", "X", " ", "X", "O", " "])
