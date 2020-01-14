@@ -146,7 +146,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" X | X | o ")
+      expect(rows[4]).to eq(" X | X | X ")
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
@@ -165,7 +165,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" O | O | O ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" O | O | X ")
+      expect(rows[4]).to eq(" O | O | O ")
 
       expect(true).to be(true)
     end
